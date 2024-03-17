@@ -8,8 +8,8 @@ const App = () => {
     setIsChecked(!isChecked)
   }
   return (
-    <div>
-      <div className="fixed bottom-3 right-3 z-[1000] ">
+    <div className="overflow-y-hidden" >
+      <div className="fixed bottom-3 right-4 sm:right-3 z-[1000] ">
       <label className='flex cursor-pointer  select-none items-center'>
         <div className='relative'>
           <input
