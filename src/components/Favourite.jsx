@@ -29,13 +29,13 @@ const Favourite = ({blur}) => {
       <div className='flex flex-col items-start justify-between'>
         {/* Upper */}
         <div data-aos="zoom-in">
-          <h1 className=' text-[36px] sm:text-[46px] lg:text-[56px] font-extrabold font-poppins'>YOUNG'S <span  className='bg-yellow-300 pr-12'>FAVOURITE</span> </h1>
+          <h1 className=' text-[36px] sm:text-[46px] lg:text-[56px] font-extrabold font-poppins'>YOUNG'S <span  className='bg-yellow-300 ss:pr-12'>FAVOURITE</span> </h1>
         </div>
         {/* Bottom */}
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-20'>
           {fav.map((obj,index)=>(
              <div data-aos="flip-right" key={index} className='flex flex-col gap-4'>
-             <img src={obj.img} alt="Hoddiee" className={`w-full  h-[550px] sm:h-[704px] object-cover ${index==1?"object-[46%] md:object-[25%]":"object-[26%]"}  ${blur?"blur-md":""}`} />
+             <img src={obj.img} alt="Hoddiee" className={`w-full  xs:h-[300px] ss:h-[550px] sm:h-[704px] object-cover ${index==1?"object-[46%] md:object-[25%]":"object-[26%]"}  ${blur?"blur-md":""}`} />
               <div className='flex flex-row items-center justify-between'>
                <p className='font-poppins font-semibold text-[24px] tracking-wide'>{obj.text}</p>
                <img src={obj.arrow} alt="" />

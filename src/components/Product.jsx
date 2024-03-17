@@ -16,7 +16,7 @@ const Product = ({blur}) => {
         {/* Bottom */}
         <div data-aos="zoom-in-right" className='grid grid-cols-1 lg:grid-cols-2 gap-4 xl:grid-cols-3 mt-20 '>
           <div className='flex flex-col gap-4'>
-            <img src={hoddiee} alt="Hoddiee" className={`w-full  h-[550px] sm:h-[704px] object-cover object-[70%] ${blur?"blur-md":""}`} />
+            <img src={hoddiee} alt="Hoddiee" className={`w-full xs:h-[300px] ss:h-[550px] sm:h-[704px] object-cover object-[70%] ${blur?"blur-md":""}`} />
              <div className='flex flex-row items-center justify-between'>
               <p className='font-poppins font-semibold text-[24px] tracking-wide'>Hoodies & Sweetshirt</p>
               <img src={arrow} alt="" />
@@ -25,7 +25,7 @@ const Product = ({blur}) => {
           </div>
 
           <div  data-aos="zoom-out-up" className='flex flex-col gap-4 '>
-            <img src={coats} alt="Hoddiee" className= {`w-full  h-[550px] sm:h-[704px] object-cover object-[36%] md:object-[25%] ${blur?"blur-md":""}`} />
+            <img src={coats} alt="Hoddiee" className= {`w-full xs:h-[300px] ss:h-[550px] sm:h-[704px] object-cover object-[36%] md:object-[25%] ${blur?"blur-md":""}`} />
             <div className='flex flex-row items-center justify-between'>
               <p className='font-poppins font-semibold text-[24px] tracking-wide'>Coats & Parkas</p>
               <img src={arrow} alt="" />
@@ -34,7 +34,7 @@ const Product = ({blur}) => {
           </div>
 
           <div data-aos="zoom-in-left" className='flex flex-col gap-4'>
-            <img src={Tshirt} alt="Hoddiee" className={`w-full  h-[550px] sm:h-[704px] object-cover object-[45%] md:object-[39%] ${blur?"blur-md":""}`} />
+            <img src={Tshirt} alt="Hoddiee" className={`w-full  xs:h-[300px] ss:h-[550px] sm:h-[704px] object-cover object-[45%] md:object-[39%] ${blur?"blur-md":""}`} />
             <div className='flex flex-row items-center justify-between'>
               <p className='font-poppins font-semibold text-[24px] tracking-wide'>Tees & T-Shirt</p>
               <img src={arrow} alt="" />

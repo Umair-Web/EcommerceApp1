@@ -10,8 +10,8 @@ const Download = () => {
           <p className="text-[22px] text-gray-500 font-poppins tracking-wide">Get 30% off for first transaction using
             Rondovision mobile app for now.</p>
           <div className='flex flex-row gap-3  items-start'>
-            <img src={applestore} alt=""  className='w-[130px] h-12 ' />
-            <img src={playstore} alt=""  className='w-[130px] h-12 ' />
+            <img src={applestore} alt=""  className='w-[80px] h-9 xs:w-[100px] xs:h-10 ss:w-[130px] ss:h-12 ' />
+            <img src={playstore} alt=""  className='w-[80px] h-9 xs:w-[100px] xs:h-10  ss:w-[130px] ss:h-12 ' />
           </div>
         </div>
         <div>

@@ -27,9 +27,9 @@ const Navbar = () => {
           <AiOutlineMenu size={30} onClick={() => (setNav(!nav))} />
         </div>
         {/* Side */}
-        {nav ? <div className='fixed top-0 left-0 z-10 h-screen w-full bg-black/50' ></div> : ""}
+        {nav ? <div className='fixed top-0 left-0 z-10 h-full w-full bg-black/50' ></div> : ""}
 
-        <div className={`fixed top-0 ${nav ? "left-0" : "left-[-300px]"}  duration-300 z-10 w-[210px] h-screen bg-yellow-300 flex flex-col items-start px-2 py-11`}>
+        <div className={`fixed top-0 ${nav ? "left-0" : "left-[-300px]"}  duration-300 z-10 w-[210px] h-full bg-yellow-300 flex flex-col items-start px-2 py-11`}>
           <div className='flex flex-row gap-11 items-center'>
             <img src={logoblack} alt="" className='h-[35px] w-[130px] object-contain' />
             <AiOutlineClose size={30} onClick={() => (setNav(!nav))} />
