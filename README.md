@@ -1,8 +1,8 @@
-# React + Vite
+# Simple Ecommerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a basic Ecommerce App based on React JS, Tailwind CSS, React-Scroll and Animation On Scroll (AOS).
 
-Currently, two official plugins are available:
+I made this website without taking help from any resources, just downloaded the assets folder.The main reason for making this project is to practice responsive web design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Demo
+![super-pixie-facf78 netlify app_ (1) (1) (1)](https://github.com/Umair-Web/EcommerceApp1/assets/125777604/a43eb117-a016-4c98-83a6-c865da8a513b)
