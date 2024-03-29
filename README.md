@@ -13,8 +13,11 @@ https://super-pixie-facf78.netlify.app/
 Below are the several new things that I have learned while making this project.
 
 ➡bg-gradient-to-r, It makes background from left to right we have to provide to more Tailwind properties for this (from-indigo-500 to-pink-500)
+
 ➡Object-postion:It is used to position a div inside a div or element inside element ,espacially if we want to display the particular part of the image.
+
 ➡If we want to provide custom value to tailwind breakpoints for just one or more , then it is good to provide value to the others too.
+
  screens: {
       xs: "256px",
       ss: "384px",
